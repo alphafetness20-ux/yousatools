@@ -1,0 +1,48 @@
+import { ToolItem } from '../types';
+
+export const TOOLS_DATA: ToolItem[] = [
+  {
+    id: 'image-compressor',
+    name: 'Image Compressor (All Formats)',
+    category: 'image',
+    categoryLabel: 'Universal Compressor',
+    description: 'Compress JPEG, PNG, and WebP images directly in your browser with adjustable quality. Fast, free, and 100% private.',
+    path: '/image-compressor',
+    status: 'available',
+    badgeLabel: 'Ready to Use',
+    tags: ['compress', 'optimize', 'image', 'photo', 'jpeg', 'png', 'webp', 'reduce size', 'kb', 'mb', 'all'],
+  },
+  {
+    id: 'jpeg-compressor',
+    name: 'JPEG / JPG Compressor',
+    category: 'jpeg',
+    categoryLabel: 'JPEG Optimization',
+    description: 'Reduce JPEG image file sizes while preserving sharp details and vibrant colors for web and email.',
+    path: '/image-compressor',
+    status: 'available',
+    badgeLabel: 'Ready to Use',
+    tags: ['jpeg', 'jpg', 'photo', 'compress', 'camera', 'quality', 'picture'],
+  },
+  {
+    id: 'png-compressor',
+    name: 'PNG Compressor & WebP Converter',
+    category: 'png',
+    categoryLabel: 'PNG Optimization',
+    description: 'Compress PNG graphics or convert to modern WebP format with alpha transparency for up to 80% file reduction.',
+    path: '/image-compressor',
+    status: 'available',
+    badgeLabel: 'Ready to Use',
+    tags: ['png', 'transparent', 'graphics', 'convert', 'webp', 'compress', 'logo', 'icon'],
+  },
+  {
+    id: 'webp-compressor',
+    name: 'WebP Compressor',
+    category: 'webp',
+    categoryLabel: 'Next-Gen WebP',
+    description: 'Fine-tune next-generation WebP images for peak web performance and faster page loading speeds.',
+    path: '/image-compressor',
+    status: 'available',
+    badgeLabel: 'Ready to Use',
+    tags: ['webp', 'modern', 'next-gen', 'compress', 'speed', 'seo', 'performance'],
+  },
+];

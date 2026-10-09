@@ -1,0 +1,6 @@
+{
+  "name": "YousaTools",
+  "description": "Free browser-based online tools starting with an in-browser image compressor. Fast, private, client-side utilities with zero server uploads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

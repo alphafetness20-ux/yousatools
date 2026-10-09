@@ -1,0 +1,6 @@
+# robots.txt for YousaTools
+User-agent: *
+Allow: /
+
+# XML Sitemap location (replace with your custom production domain if different)
+Sitemap: https://yousatools.com/sitemap.xml
